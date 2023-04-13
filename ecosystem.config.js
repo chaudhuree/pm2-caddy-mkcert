@@ -1,0 +1,29 @@
+module.exports={
+  apps:[
+    {
+      name:"expressapp",
+      script:"yarn",
+      args:"start",
+      cwd:"./expressapp",
+      env:{
+        PORT:8080
+      }
+    },
+    {
+      name:"expressapp",
+      script:"yarn",
+      args:"start",
+      cwd:"./expressapp",
+      env:{
+        PORT:8081
+      }
+    },
+    {
+      name:"reactapp",
+      script:"yarn",
+      args:"start",
+      cwd:"./reactapp"
+    }
+  ]
+}
+  
